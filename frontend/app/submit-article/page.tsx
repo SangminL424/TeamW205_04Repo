@@ -43,7 +43,7 @@ export default function SubmitArticle() {
         <form onSubmit={handleSubmit} className="submit-article-form">
           {/* Title */}
           <div>
-            <label htmlFor="title">Title:</label>
+            <label htmlFor="title">Title: </label>
             <input
               type="text"
               id="title"
@@ -56,7 +56,7 @@ export default function SubmitArticle() {
 
           {/* Author */}
           <div>
-            <label htmlFor="author">Author:</label>
+            <label htmlFor="author">Author: </label>
             <input
               type="text"
               id="author"
@@ -69,7 +69,7 @@ export default function SubmitArticle() {
 
           {/* Journal */}
           <div>
-            <label htmlFor="journal">Journal:</label>
+            <label htmlFor="journal">Journal: </label>
             <input
               type="text"
               id="journal"
@@ -82,7 +82,7 @@ export default function SubmitArticle() {
 
           {/* Year */}
           <div>
-            <label htmlFor="year">Year:</label>
+            <label htmlFor="year">Year: </label>
             <input
               type="number"
               id="year"
@@ -95,7 +95,7 @@ export default function SubmitArticle() {
 
           {/* DOI */}
           <div>
-            <label htmlFor="doi">DOI:</label>
+            <label htmlFor="doi">DOI: </label>
             <input
               type="text"
               id="doi"
@@ -108,7 +108,7 @@ export default function SubmitArticle() {
 
           {/* BibTeX File Upload */}
           <div>
-            <label htmlFor="bibtexFile">Upload BibTeX File:</label>
+            <label htmlFor="bibtexFile">Upload BibTeX File: </label>
             <input
               type="file"
               id="bibtexFile"
