@@ -1,4 +1,5 @@
 "use client";
+import Link from 'next/link';
 
 import { useState } from 'react';
 
@@ -39,7 +40,7 @@ export default function Home() {
           <a href="#">Library</a>
         </li>
         <li>
-          <a href="#">Add Article</a>
+          <a href="/submit-article">Add Article</a>
         </li>
       </ul>
     </div>
@@ -77,7 +78,7 @@ export default function Home() {
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
-              viewBox="0 0 24 24"
+              viewBox="0 5 30 24"
               strokeWidth="2"
               stroke="currentColor"
               className="profile-svg"
@@ -118,11 +119,14 @@ export default function Home() {
         Start by searching for a practice like Test-Driven Development (TDD) or
         Continuous Integration (CI).
       </p>
-      <div className="add-article-container">
-        <button className="add-article-button">Add Article</button>
-      </div>
-    </main>
-  </div>
+        {/* Add Article Button */}
+        <div className="add-article-container">
+          <Link href="/submit-article">
+            <button className="add-article-button">Add Article</button>
+          </Link>
+        </div>
+      </main>
+    </div>
 
 );
 }
