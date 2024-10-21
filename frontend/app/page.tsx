@@ -38,6 +38,9 @@ export default function Home() {
         <li>
           <a href="#">Library</a>
         </li>
+        <li>
+          <a href="#">Add Article</a>
+        </li>
       </ul>
     </div>
 
@@ -115,6 +118,9 @@ export default function Home() {
         Start by searching for a practice like Test-Driven Development (TDD) or
         Continuous Integration (CI).
       </p>
+      <div className="add-article-container">
+        <button className="add-article-button">Add Article</button>
+      </div>
     </main>
   </div>
 
